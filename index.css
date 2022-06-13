@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h4{
+  text-align: center;
+  background-color: orange;
+  padding: 15px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(57, 57, 57);
+  padding: 14px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0px 40px;
+  font-size: 18px;
+  color: white;
+}
+
+nav ul li:hover{
+  cursor: pointer;
+  font-size: 30px;
+  color: rgb(170, 42, 42);
+  transition: 0.6s;
+}
+
+.chi_siamo_contattaci{
+  color: white;
+  font-size: 14px;
+}
+
+span{
+  padding-right: 8px;
+}
+
+.titolo_principale{
+  background-color: #72b6dc;
+}
+
+h1, h2{
+  margin-left: 250px;
+  color: white;
+  line-height: 100px;
+}
+
+h1{
+  font-size: 52px;
+  padding: 25px;
+}
+
+h2{
+  padding: 25px;
+}
+
+.chi_cerchiamo{
+  margin-left: 250px;
+  margin-top: 70px;
+  width: 60%;
+}
+
+.attivita_e_ruolo{
+  margin-left: 250px;
+  margin-top: 70px;
+  width: 60%;
+}
+
+.requisiti{
+  margin-left: 250px;
+  margin-top: 70px;
+  width: 60%;
+}
+
+h3{
+  margin-bottom: 15px;
+}
+
+.conta{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.e_mail{
+  background-color: grey;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  margin-top: 60px;
+  background-color: rgb(95, 95, 95);
+}
+
+input, textarea{
+  display: block;
+  padding: 5px;
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+#selezione{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  width: 30%;
+}
+
+/*errors*/
+#errors{
+  background-color: red;
+  /*padding: 8px;*/
+  border-radius: 8px;
+  max-height: 0px; /* NASCONDE CONTENUTO*/
+  overflow: hidden;/* NASCONDE CONTENUTO*/
+  transition: all 0.5s ease;
+}
+
+.show_errors{
+  max-height: 60px!important;
+  padding: 8px;
+  margin-top: 10px;
+}
